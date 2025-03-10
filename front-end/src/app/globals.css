@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --primary: #09090b;
+  --secondary: #71717a;
+  --ternary: #00aa5b;
+
+  /* Text Styles */
+  --title-size: 24px;
+  --title-weight: 700;
+
+  --subtitle-size: 18px;
+  --subtitle-weight: 600;
+
+  --content-size: 16px;
+  --content-weight: 500;
+
+  --light-grey: #f8f8f8;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

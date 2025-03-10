@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  justify-content: start;
+  gap: 10px;
+}
+.imageContainer {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.priceWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: var(--content-size);
+  color: var(--primary);
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.price {
+  font-size: var(--subtitle-size);
+  color: var(--primary);
+  font-weight: var(--title-weight);
+}
+.button {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ternary);
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  max-width: 200px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottomWrapper {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.quantityButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  background-color: #b1b1b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.quantityWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  gap: 5px;
+}
